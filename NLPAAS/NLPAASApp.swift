@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct NLPAASApp: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+
         }
+        
     }
 }
