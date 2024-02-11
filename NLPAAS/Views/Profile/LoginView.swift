@@ -11,13 +11,15 @@ struct LoginView: View {
     @State var loginRequest = LoginRequest()
     var body: some View {
         NavigationStack {
-            VStack(alignment: .center, spacing: 15) {
+            VStack(alignment: .center, spacing: 23) {
                 Text("Login")
-                    .font(.largeTitle)
-                    .bold()
-                    .padding()
-                FormTextField(formText: "Email", bindingText: loginRequest.email, isSecure: false)
-                FormTextField(formText: "Password", bindingText: loginRequest.password, isSecure: true)
+                    .font(.system(size: 40, weight: .bold))
+                    .foregroundStyle(Color.blue)
+                Text("Welcome back, you've been missed!")
+                    .font(.system(size: 18, weight: .bold))
+                    .multilineTextAlignment(.center)
+                FormTextField(placeholder: .email, bindingText: loginRequest.email, isSecure: false)
+                FormTextField(placeholder: .password, bindingText: loginRequest.password, isSecure: true)
                 Button("Login") {
 
                 }
@@ -27,9 +29,15 @@ struct LoginView: View {
                 .cornerRadius(10)
 
                 NavigationLink(destination: RegisterView()) {
-                    Text("No account? Register!")
-                        .foregroundStyle(.blue)
+                    Text("Create new account")
+                        .font(.system(size: 20, weight: .semibold))
+
                 }
+                .padding(.vertical)
+                .frame(maxWidth: .infinity)
+                .cornerRadius(10)
+                .padding(.horizontal)
+
                 .toolbar(.hidden)
 
             }
