@@ -10,13 +10,23 @@
 		2E5898ED2B74329700B01E2F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5898EC2B74329700B01E2F /* NetworkError.swift */; };
 		2E5898F02B743E2D00B01E2F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5898EF2B743E2D00B01E2F /* MainView.swift */; };
 		2E5898F22B743E4700B01E2F /* BottomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5898F12B743E4700B01E2F /* BottomNavigationBar.swift */; };
-		2E5898F42B758BFD00B01E2F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5898F32B758BFD00B01E2F /* ProfileView.swift */; };
+		2E5898F42B758BFD00B01E2F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5898F32B758BFD00B01E2F /* OnboardingView.swift */; };
 		2E9822872B78319400774986 /* SheetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822862B78319400774986 /* SheetManager.swift */; };
 		2E98228A2B7833E900774986 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822892B7833E900774986 /* RegisterRequest.swift */; };
 		2E98228C2B78343100774986 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E98228B2B78343100774986 /* LoginRequest.swift */; };
 		2E98228F2B78346700774986 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E98228E2B78346700774986 /* LoginView.swift */; };
 		2E9822912B7835B000774986 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822902B7835B000774986 /* FormTextField.swift */; };
 		2E9822932B78393F00774986 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822922B78393F00774986 /* RegisterView.swift */; };
+		2E9822962B78E03100774986 /* NLPTaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822952B78E03100774986 /* NLPTaskCardView.swift */; };
+		2E9822982B78E41400774986 /* NewTaskSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822972B78E41400774986 /* NewTaskSheetView.swift */; };
+		2E98229A2B7F79D800774986 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822992B7F79D800774986 /* ProfileView.swift */; };
+		2E98229C2B80AA2E00774986 /* ProfileTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E98229B2B80AA2E00774986 /* ProfileTextField.swift */; };
+		2E9822A02B82630C00774986 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E98229F2B82630C00774986 /* Endpoint.swift */; };
+		2E9822A22B8266F200774986 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822A12B8266F200774986 /* HTTPMethod.swift */; };
+		2E9822A42B82681400774986 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822A32B82681400774986 /* HTTPRequest.swift */; };
+		2E9822A72B826FA400774986 /* AuthEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822A62B826FA400774986 /* AuthEndpoint.swift */; };
+		2E9822A92B82842400774986 /* AuthServiceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822A82B82842400774986 /* AuthServiceable.swift */; };
+		2E9822AC2B82848F00774986 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9822AB2B82848F00774986 /* AuthService.swift */; };
 		2EBF09B72B742EB200BD6EFE /* NLPAASApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF09B62B742EB200BD6EFE /* NLPAASApp.swift */; };
 		2EBF09B92B742EB200BD6EFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF09B82B742EB200BD6EFE /* ContentView.swift */; };
 		2EBF09BB2B742EB300BD6EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EBF09BA2B742EB300BD6EFE /* Assets.xcassets */; };
@@ -50,13 +60,23 @@
 		2E5898EC2B74329700B01E2F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		2E5898EF2B743E2D00B01E2F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2E5898F12B743E4700B01E2F /* BottomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationBar.swift; sourceTree = "<group>"; };
-		2E5898F32B758BFD00B01E2F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2E5898F32B758BFD00B01E2F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		2E9822862B78319400774986 /* SheetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetManager.swift; sourceTree = "<group>"; };
 		2E9822892B7833E900774986 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
 		2E98228B2B78343100774986 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		2E98228E2B78346700774986 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2E9822902B7835B000774986 /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
 		2E9822922B78393F00774986 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		2E9822952B78E03100774986 /* NLPTaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPTaskCardView.swift; sourceTree = "<group>"; };
+		2E9822972B78E41400774986 /* NewTaskSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskSheetView.swift; sourceTree = "<group>"; };
+		2E9822992B7F79D800774986 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2E98229B2B80AA2E00774986 /* ProfileTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTextField.swift; sourceTree = "<group>"; };
+		2E98229F2B82630C00774986 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		2E9822A12B8266F200774986 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		2E9822A32B82681400774986 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		2E9822A62B826FA400774986 /* AuthEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthEndpoint.swift; sourceTree = "<group>"; };
+		2E9822A82B82842400774986 /* AuthServiceable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceable.swift; sourceTree = "<group>"; };
+		2E9822AB2B82848F00774986 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		2EBF09B32B742EB200BD6EFE /* NLPAAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLPAAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBF09B62B742EB200BD6EFE /* NLPAASApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPAASApp.swift; sourceTree = "<group>"; };
 		2EBF09B82B742EB200BD6EFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +123,8 @@
 				2E5898F12B743E4700B01E2F /* BottomNavigationBar.swift */,
 				2EC721E32B77EF0200CFB791 /* TabBarButton.swift */,
 				2E9822902B7835B000774986 /* FormTextField.swift */,
+				2E9822952B78E03100774986 /* NLPTaskCardView.swift */,
+				2E98229B2B80AA2E00774986 /* ProfileTextField.swift */,
 			);
 			path = "Shared Views";
 			sourceTree = "<group>";
@@ -116,13 +138,56 @@
 			path = Requests;
 			sourceTree = "<group>";
 		};
-		2E98228D2B78345C00774986 /* Profile */ = {
+		2E98228D2B78345C00774986 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
 				2E98228E2B78346700774986 /* LoginView.swift */,
 				2E9822922B78393F00774986 /* RegisterView.swift */,
 			);
-			path = Profile;
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		2E9822942B78DFD400774986 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2E98229D2B8262E000774986 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2EBF09E42B7431F900BD6EFE /* Services */,
+				2E9822A52B826F8A00774986 /* Endpoints */,
+				2E98229E2B8262FF00774986 /* Base */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2E98229E2B8262FF00774986 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2E98229F2B82630C00774986 /* Endpoint.swift */,
+				2E9822A12B8266F200774986 /* HTTPMethod.swift */,
+				2E9822A32B82681400774986 /* HTTPRequest.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2E9822A52B826F8A00774986 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				2E9822A62B826FA400774986 /* AuthEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		2E9822AA2B82847E00774986 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2E9822A82B82842400774986 /* AuthServiceable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		2EBF09AA2B742EB100BD6EFE = {
@@ -148,7 +213,8 @@
 		2EBF09B52B742EB200BD6EFE /* NLPAAS */ = {
 			isa = PBXGroup;
 			children = (
-				2EBF09E42B7431F900BD6EFE /* Services */,
+				2E98229D2B8262E000774986 /* Network */,
+				2E9822942B78DFD400774986 /* ViewModels */,
 				2EBF09E32B742FE500BD6EFE /* Managers */,
 				2EBF09E22B742FDE00BD6EFE /* Models */,
 				2EBF09E12B742FD700BD6EFE /* Views */,
@@ -198,10 +264,12 @@
 		2EBF09E12B742FD700BD6EFE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2E98228D2B78345C00774986 /* Profile */,
+				2E98228D2B78345C00774986 /* Onboarding */,
 				2E5898EE2B7432C200B01E2F /* Shared Views */,
-				2E5898F32B758BFD00B01E2F /* ProfileView.swift */,
+				2E5898F32B758BFD00B01E2F /* OnboardingView.swift */,
 				2EC721E72B77F6F700CFB791 /* SavedView.swift */,
+				2E9822972B78E41400774986 /* NewTaskSheetView.swift */,
+				2E9822992B7F79D800774986 /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,6 +294,8 @@
 		2EBF09E42B7431F900BD6EFE /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				2E9822AA2B82847E00774986 /* Protocols */,
+				2E9822AB2B82848F00774986 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -361,17 +431,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EC721E82B77F6F700CFB791 /* SavedView.swift in Sources */,
+				2E9822A72B826FA400774986 /* AuthEndpoint.swift in Sources */,
+				2E9822A42B82681400774986 /* HTTPRequest.swift in Sources */,
 				2E98228A2B7833E900774986 /* RegisterRequest.swift in Sources */,
+				2E9822A22B8266F200774986 /* HTTPMethod.swift in Sources */,
+				2E9822962B78E03100774986 /* NLPTaskCardView.swift in Sources */,
+				2E9822982B78E41400774986 /* NewTaskSheetView.swift in Sources */,
+				2E9822AC2B82848F00774986 /* AuthService.swift in Sources */,
 				2EC721EA2B77F74900CFB791 /* TabBarViewModel.swift in Sources */,
 				2E9822912B7835B000774986 /* FormTextField.swift in Sources */,
 				2E98228C2B78343100774986 /* LoginRequest.swift in Sources */,
 				2E5898ED2B74329700B01E2F /* NetworkError.swift in Sources */,
 				2E9822932B78393F00774986 /* RegisterView.swift in Sources */,
 				2E5898F22B743E4700B01E2F /* BottomNavigationBar.swift in Sources */,
+				2E98229A2B7F79D800774986 /* ProfileView.swift in Sources */,
+				2E98229C2B80AA2E00774986 /* ProfileTextField.swift in Sources */,
+				2E9822A92B82842400774986 /* AuthServiceable.swift in Sources */,
 				2E5898F02B743E2D00B01E2F /* MainView.swift in Sources */,
 				2EBF09B92B742EB200BD6EFE /* ContentView.swift in Sources */,
+				2E9822A02B82630C00774986 /* Endpoint.swift in Sources */,
 				2EC721E42B77EF0200CFB791 /* TabBarButton.swift in Sources */,
-				2E5898F42B758BFD00B01E2F /* ProfileView.swift in Sources */,
+				2E5898F42B758BFD00B01E2F /* OnboardingView.swift in Sources */,
 				2E98228F2B78346700774986 /* LoginView.swift in Sources */,
 				2EBF09B72B742EB200BD6EFE /* NLPAASApp.swift in Sources */,
 				2E9822872B78319400774986 /* SheetManager.swift in Sources */,

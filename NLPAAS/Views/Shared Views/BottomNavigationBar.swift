@@ -38,8 +38,10 @@ struct BottomNavigationBar: View {
             }
             ).tint(.blue)
                 .sheet(isPresented: $sheetManager.showSheet, content: {
-                    Text("Hello World!")
-                        .presentationDetents([.fraction(0.4)])
+                    NewTaskSheetView()
+                        .presentationCornerRadius(40)
+                        .presentationDragIndicator(.visible)
+                        .presentationDetents([.fraction(0.5)])
                 })
 
 

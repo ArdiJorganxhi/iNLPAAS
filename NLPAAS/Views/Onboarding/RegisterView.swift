@@ -22,8 +22,12 @@ struct RegisterView: View {
                 FormTextField(placeholder: .surname, bindingText: registerRequest.lastName, isSecure: false)
                 FormTextField(placeholder: .email, bindingText: registerRequest.email, isSecure: false)
                 FormTextField(placeholder: .password, bindingText: registerRequest.password, isSecure: true)
-                Button("Register") {
+                Button {
 
+                } label: {
+                    Text("Register")
+                        .foregroundStyle(.white)
+                        .font(.system(size: 25, weight: .semibold))
                 }
                 .foregroundStyle(.white)
                 .frame(width: 300, height: 50)

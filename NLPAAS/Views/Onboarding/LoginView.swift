@@ -20,8 +20,12 @@ struct LoginView: View {
                     .multilineTextAlignment(.center)
                 FormTextField(placeholder: .email, bindingText: loginRequest.email, isSecure: false)
                 FormTextField(placeholder: .password, bindingText: loginRequest.password, isSecure: true)
-                Button("Login") {
+                Button {
 
+                } label: {
+                    Text("Login")
+                        .foregroundStyle(.white)
+                        .font(.system(size: 25, weight: .semibold))
                 }
                 .foregroundStyle(.white)
                 .frame(width: 300, height: 50)
